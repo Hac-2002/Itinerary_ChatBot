@@ -14,7 +14,6 @@ TravelBuddy is an intelligent Streamlit chatbot that generates personalized, det
 - Groq API Key
 
 ## Installation
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/travelbuddy.git
@@ -32,11 +31,16 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
-Create a `.env` file in the project root and add:
+## Environment Configuration
+1. Create a `.env` file in the project root directory
+2. Add your Groq API key to the `.env` file:
 ```
 GROQ_API_KEY=your_groq_api_key_here
 ```
+**Important Notes:**
+- Replace `your_groq_api_key_here` with your actual Groq API key
+- Do not share your `.env` file or commit it to version control
+- Add `.env` to your `.gitignore` file to prevent accidental exposure of sensitive credentials
 
 ## Usage
 Run the application:
